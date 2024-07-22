@@ -284,9 +284,7 @@ pub use var_to::VarTo;
 mod conv1d;
 pub use conv1d::TryConv1D;
 
-#[cfg(feature = "nightly")]
 mod conv2d;
-#[cfg(feature = "nightly")]
 pub use conv2d::TryConv2D;
 
 #[cfg(feature = "nightly")]
