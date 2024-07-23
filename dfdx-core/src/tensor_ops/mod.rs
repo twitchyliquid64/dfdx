@@ -292,7 +292,5 @@ mod convtrans2d;
 #[cfg(feature = "nightly")]
 pub use convtrans2d::TryConvTrans2D;
 
-#[cfg(feature = "nightly")]
 mod pool2d;
-#[cfg(feature = "nightly")]
 pub use pool2d::{Pool2DKind, TryPool2D};
